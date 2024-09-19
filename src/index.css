@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'JMH Typewriter';
+    src: url('./fonts/JMH Typewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: 'JMH Typewriter', sans-serif;
+  }
+  
+  body{
+    background-color: #282a36;
+  }
